@@ -1,0 +1,6 @@
+library(ggplot2)
+
+data <- read.csv("datos.csv")
+
+ggplot(data, aes(x=variable1, y=variable2)) +
+  geom_point()
